@@ -1,0 +1,201 @@
+country,acronym,mean_temp_last_10_yrs
+afghanistan,AFG,14.06
+albania,ALB,13.33
+algeria,DZA,23.83
+andorra,AND,9.02
+angola,AGO,21.73
+antigua and barbuda,ATG,27.57
+egypt,EGY,23.6
+argentina,ARG,15.41
+armenia,ARM,8.63
+australia,AUS,22.41
+austria,AUT,8.34
+azerbaijan,AZE,13.7
+bahrain,BHR,28.56
+bangladesh,BGD,25.71
+barbados,BRB,26.71
+belarus,BLR,8.38
+belgium,BEL,11.41
+belize,BLZ,26.16
+benin,BEN,28.4
+bhutan,BTN,10.46
+bolivia,BOL,21.15
+bosnia and herzegovina,BIH,11.24
+botswana,BWA,22.29
+brazil,BRA,25.78
+brunei darussalam,BRN,27.22
+bulgaria,BGR,12.34
+burkina faso,BFA,29.69
+burundi,BDI,20.55
+cabo verde,CPV,22.72
+cambodia,KHM,27.72
+cameroon,CMR,25.02
+canada,CAN,-3.78
+central african republic,CAF,25.58
+chad,TCD,27.56
+chile,CHL,9.69
+china,CHN,8.11
+colombia,COL,25.27
+comoros,COM,24.07
+dr congo,COG,25.1
+costa rica,CRI,24.89
+croatia,HRV,12.87
+cuba,CUB,26.32
+cyprus,CYP,19.53
+czech republic,CZE,9.59
+côte d'ivoire,CIV,27.16
+d. p. r. of korea,PRK,7.63
+democratic republic of congo,COD,24.4
+denmark,DNK,9.52
+djibouti,DJI,28.68
+dominica,DMA,27.01
+dominican republic,DOM,24.98
+ecuador,ECU,21.74
+el salvador,SLV,25.57
+equatorial guinea,GNQ,24.91
+eritrea,ERI,26.88
+estonia,EST,7.02
+eswatini,SWZ,21.1
+ethiopia,ETH,23.63
+federated states of micronesia,FSM,27.66
+fiji,FJI,25.01
+finland,FIN,3.14
+france,FRA,12.42
+gabon,GAB,25.48
+georgia,GEO,9.88
+germany,DEU,10.45
+ghana,GHA,28.1
+greece,GRC,15.21
+grenada,GRD,26.56
+guatemala,GTM,24.11
+guinea,GIN,26.28
+guinea-bissau,GNB,28.3
+guyana,GUY,26.45
+haiti,HTI,25.33
+honduras,HND,25.1
+hungary,HUN,12.52
+iceland,ISL,2.0
+india,IND,25.13
+indonesia,IDN,26.13
+iraq,IRQ,23.75
+ireland,IRL,10.07
+iran,IRN,19.09
+israel,ISR,20.58
+italy,ITA,14.0
+jamaica,JAM,26.32
+japan,JPN,12.44
+jordan,JOR,20.04
+kazakhstan,KAZ,7.82
+kenya,KEN,25.24
+kiribati,KIR,27.82
+kosovo,XKX,11.04
+kuwait,KWT,27.21
+kyrgyz republic,KGZ,3.48
+lao people's democratic republic,LAO,24.56
+latvia,LVA,7.7
+lebanon,LBN,15.95
+lesotho,LSO,12.9
+liberia,LBR,25.74
+libya,LBY,22.86
+liechtenstein,LIE,8.46
+lithuania,LTU,8.28
+luxembourg,LUX,10.8
+madagascar,MDG,22.95
+malawi,MWI,22.82
+malaysia,MYS,26.68
+maldives,MDV,28.2
+mali,MLI,29.46
+malta,MLT,20.05
+marshall islands,MHL,28.37
+mauritania,MRT,29.01
+mauritius,MUS,23.81
+mexico,MEX,22.03
+moldova,MDA,11.92
+monaco,MCO,14.27
+mongolia,MNG,1.77
+montenegro,MNE,10.8
+morocco,MAR,18.68
+mozambique,MOZ,24.69
+myanmar,MMR,24.12
+namibia,NAM,20.53
+nauru,NRU,27.96
+nepal,NPL,14.28
+netherlands,NLD,11.23
+new zealand,NZL,10.98
+nicaragua,NIC,26.14
+niger,NER,28.05
+nigeria,NGA,27.48
+north macedonia,MKD,11.66
+norway,NOR,2.66
+oman,OMN,28.07
+pakistan,PAK,21.9
+palau,PLW,27.7
+panama,PAN,25.79
+papua new guinea,PNG,24.78
+paraguay,PRY,24.3
+peru,PER,19.94
+philippines,PHL,26.69
+poland,POL,9.83
+portugal,PRT,16.5
+qatar,QAT,28.77
+r. b. de venezuela,VEN,25.91
+south korea,KOR,12.88
+republic of yemen,YEM,25.74
+romania,ROU,11.22
+russian federation,RUS,-2.92
+rwanda,RWA,19.21
+saint kitts and nevis,KNA,27.85
+saint lucia,LCA,27.2
+saint vincent and the grenadines,VCT,26.38
+samoa,WSM,27.69
+san marino,SMR,13.62
+saudi arabia,SAU,26.33
+scotland,SCO,9.67
+senegal,SEN,29.23
+serbia,SRB,12.4
+seychelles,SYC,27.42
+sierra leone,SLE,26.81
+singapore,SGP,28.06
+slovak republic,SVK,10.02
+slovenia,SVN,10.76
+solomon islands,SLB,25.89
+somalia,SOM,27.09
+south africa,ZAF,18.67
+south sudan,SSD,27.97
+spain,ESP,14.67
+sri lanka,LKA,27.49
+sudan,SDN,28.04
+suriname,SUR,26.88
+sweden,SWE,3.72
+switzerland,CHE,7.35
+syrian arab republic,SYR,19.46
+são tomé and príncipe,STP,24.66
+twn,TWN,20.84
+tajikistan,TJK,4.81
+tanzania,TZA,23.02
+thailand,THA,27.23
+the bahamas,BHS,26.2
+the gambia,GMB,28.69
+timor-leste,TLS,24.86
+togo,TGO,27.78
+tonga,TON,25.2
+trinidad and tobago,TTO,26.9
+tunisia,TUN,21.06
+turkmenistan,TKM,17.27
+tuvalu,TUV,28.55
+türkiye,TUR,12.49
+uganda,UGA,23.18
+ukraine,UKR,10.27
+united arab emirates,ARE,28.64
+england,ENG,9.67
+united states,USA,10.15
+uruguay,URY,18.29
+uzbekistan,UZB,14.54
+vanuatu,VUT,24.54
+vatican city,VAT,16.98
+vietnam,VNM,25.14
+zambia,ZMB,22.14
+zimbabwe,ZWE,22.11
+czechia,CZE,9.1
+curaçao,CUW,27.8
+ivory coast,CIV,27.4
