@@ -1,5 +1,6 @@
 import pandas as pd
 from collections import defaultdict
+from constants import TOURNAMENT_STRENGTH
 
 
 def get_recent_average(history, team, window=5):
@@ -25,18 +26,26 @@ def generate_match_features(
     matches_path="data/football_match_results.csv",
     elo_k=40,
     form_window=5,
+    wc_teams=None,
     verbose=True,
 ):
     matches = pd.read_csv(matches_path)
 
     matches["date"] = pd.to_datetime(matches["date"])
-
-    matches = (
-        matches
-        .dropna(subset=["home_score", "away_score"])
-        .sort_values("date")
-        .reset_index(drop=True)
+    matches["tournament"] = (matches["tournament"].astype(str).str.strip().str.lower())
+    matches = matches[matches["date"] >= "1992-01-01"]
+    
+    matches = (matches.dropna(subset=["home_score", "away_score"]).sort_values("date").reset_index(drop=True))
+    matches = matches.sort_values("date").reset_index(drop=True)
+    matches["tournament_strength"] = matches["tournament"].map(
+        lambda x: TOURNAMENT_STRENGTH.get(x, 0.5)
     )
+    
+    if wc_teams is not None:
+        matches = matches[
+            matches["home_team"].isin(wc_teams) &
+            matches["away_team"].isin(wc_teams)
+        ].reset_index(drop=True)
 
     # Historical tracking
     team_history = defaultdict(list)
