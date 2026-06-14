@@ -34,7 +34,7 @@ def generate_wc_country_profiles(
     )
 
     # 4. Process and Deduplicate FIFA Rankings (Get latest per country/acronym)
-    ranking_cols = ["date", "semester", "rank", "acronym", "total.points", "previous.points", "diff.points"]
+    ranking_cols = ["rank", "acronym", "total.points", "previous.points", "diff.points"]
     
     latest_rankings = (
         fifa_ranking.sort_values(by=["date", "semester"], ascending=[False, False])
@@ -45,6 +45,9 @@ def generate_wc_country_profiles(
 
     # 5. Merge FIFA Rankings
     country_profile = pd.merge(country_profile, latest_rankings, on="acronym", how="left")
+
+    # 6. Sort by Rank
+    country_profile = country_profile.sort_values(by='rank', ascending=True)
 
     # 6. Optional Logging & Integrity Checks
     if verbose:
@@ -58,6 +61,4 @@ def generate_wc_country_profiles(
             print("\n⚠️ WARNING: The following World Cup teams were dropped or have missing data:")
             print(missing_teams['country'].tolist())
 
-    return country_profile
-
-df_profiles = generate_wc_country_profiles(verbose=True)
+    return country_profile.reset_index(drop=True)
