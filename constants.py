@@ -58,3 +58,7 @@ TOURNAMENT_STRENGTH = {
     "friendly": 0.30,
     "fifa series": 0.30             
 }
+
+MAJOR_TOURNAMENTS = {
+    k for k, v in TOURNAMENT_STRENGTH.items() if v >= 0.70
+}
